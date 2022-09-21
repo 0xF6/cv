@@ -65,7 +65,7 @@ window.addEventListener("load", function() {
             circleArray[i].update();
         }
     }
-    var canvas = document.getElementById("animation");
+    var canvas = document.getElementById("bg");
     var c = canvas.getContext("2d");
 
     canvas.width = window.innerWidth;
